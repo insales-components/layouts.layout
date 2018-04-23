@@ -1,0 +1,17 @@
+{
+  "name": "layouts.layout",
+  "version": "0.0.1",
+  "description": "Общий layout",
+  "author": "LiquidHub.ru",
+  "type": "templates",
+  "homepage": "https://github.com/insales-components/layouts.layout",
+  "props": {
+    "plugins": false,
+    "cellsio": false,
+    "common": false,
+    "liquid": true
+  },
+  "dependencies": {
+    "head": "https://github.com/insales-components/head"
+  }
+}
