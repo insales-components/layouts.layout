@@ -6,13 +6,14 @@
   "type": "templates",
   "homepage": "https://github.com/insales-components/layouts.layout",
   "props": {
-    "plugins": false,
-    "cellsio": false,
     "common": false,
     "liquid": true
   },
   "dependencies": {
     "head": "https://github.com/insales-components/head",
+    "header": "https://github.com/insales-components/header",
+    "no_js_alert": "https://github.com/insales-components/njs-alert",
+    "footer": "https://github.com/insales-components/footer",
     "snippet": "https://github.com/insales-components/snippet"
   }
 }

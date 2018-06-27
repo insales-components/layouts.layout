@@ -4,8 +4,13 @@
     {% include "head" %}
     {% include "snippet", snippet_name: "styles" %}
   </head>
-  <body>
+  <body class="template-{{ template | replace: '.', '_' }}" data-page-template="{{ template }}">
+    <div id="insales-theme">
+    {% include "snippet", snippet_name: "header" %}
     {{ content_for_layout }}
+    {% include "snippet", snippet_name: "footer" %}
     {% include "snippet", snippet_name: "scripts" %}
+    {% include "snippet", snippet_name: "no_js_alert" %}
+    <div>
   </body>
 </html>
