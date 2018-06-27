@@ -12,6 +12,7 @@
     "liquid": true
   },
   "dependencies": {
-    "head": "https://github.com/insales-components/head"
+    "head": "https://github.com/insales-components/head",
+    "snippet": "https://github.com/insales-components/snippet"
   }
 }
