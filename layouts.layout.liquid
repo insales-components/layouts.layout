@@ -2,8 +2,10 @@
 <html>
   <head>
     {% include "head" %}
+    {% include "snippet", snippet_name: "styles" %}
   </head>
   <body>
     {{ content_for_layout }}
+    {% include "snippet", snippet_name: "scripts" %}
   </body>
 </html>
