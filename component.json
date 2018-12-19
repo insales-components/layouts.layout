@@ -10,6 +10,8 @@
     "liquid": true
   },
   "dependencies": {
+    "scripts": "https://github.com/insales-components/scripts",
+    "styles": "https://github.com/insales-components/styles",
     "head": "https://github.com/insales-components/head",
     "header": "https://github.com/insales-components/header",
     "no_js_alert": "https://github.com/insales-components/njs-alert",
