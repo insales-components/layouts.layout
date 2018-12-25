@@ -12,6 +12,8 @@
   "dependencies": {
     "scripts": "https://github.com/insales-components/scripts",
     "styles": "https://github.com/insales-components/styles",
+    "ui_typography": "https://github.com/insales-components/ui_typography",
+    "ui_layout": "https://github.com/insales-components/ui_layout",
     "head": "https://github.com/insales-components/head",
     "header": "https://github.com/insales-components/header",
     "no_js_alert": "https://github.com/insales-components/njs-alert",
